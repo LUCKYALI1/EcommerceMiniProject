@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import ProductsPage from './pages/ProductsPage';
 import ProductDetails from './components/ProductDetails';
 import CartPage from './pages/CartPage';
+import LoginPage from './pages/Login';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<ProductsPage />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<CartPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </main>
     </div>

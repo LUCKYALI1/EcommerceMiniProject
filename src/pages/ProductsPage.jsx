@@ -81,7 +81,7 @@ export default function ProductsPage() {
         </div>
 
         {isLoading ? (
-          <div className="min-h-[300px] flex items-center justify-center text-lg font-semibold text-blue-600">
+          <div className="min-h-75 flex items-center justify-center text-lg font-semibold text-blue-600">
             🌀 Fetching Page {page}...
           </div>
         ) : isError ? (
